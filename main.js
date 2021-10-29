@@ -1,5 +1,4 @@
 
-
 //User Interface/ DOM related properties and methods
 const UI = {
     loadSelector(){
@@ -135,7 +134,7 @@ const weatherData = {
    async getData(){
         //Requesting dota to server
         try {
-            const res = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${this.city},${this.country}&units=metric&appid=${this.APP_ID}`);
+            const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${this.city},${this.country}&units=metric&appid=${this.APP_ID}`);
             // return await res.json();
 
             const data = await res.json()
@@ -149,7 +148,6 @@ const weatherData = {
         catch{
             UI.showMessage("Ploblem in fetching weather");
         }
-        
     }
 }
 
