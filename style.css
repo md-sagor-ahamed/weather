@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.heading {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid red;
+    background: rgb(65, 65, 155);
+    color: #fff;
+    font-size: 35px;
+}
+.header{
+    background: rgb(150, 150, 150);
+    margin-bottom: 40px;
+}
+.inputForm {
+    padding: 20px;
+    display: block;
+}
+.alertMessage {
+    background: rgb(226, 150, 150);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.inputForm input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.inputForm {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+}
+.submitForm {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transition: .3s;
+}
+.submitForm:hover {
+    background: rgb(142, 142, 189);
+    cursor: pointer;
+}
+.footer {
+    width: 550px;
+    background: rgb(150, 150, 150);
+    margin: auto;
+}
+.displayCity{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    background: rgb(65, 65, 155);
+    color: #fff;
+    font-size: 20px;
+}
+
+.weaterDisplay .icon{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    line-height: 10px;
+    margin: auto;
+    line-height: 2px;
+}
+.weaterDisplay .w-feel{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.weaterDisplay ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.weaterDisplay ul li{
+    padding: 5px 20px;
+    font-size: 18px;
+}
+.weaterDisplay ul li:nth-child(even){
+    background: rgb(124, 124, 124);
+}
